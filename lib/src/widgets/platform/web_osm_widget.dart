@@ -19,6 +19,12 @@ Widget getWidget({
   bool isPicker = false,
   bool showContributorBadgeForOSM = false,
   bool androidHotReloadSupport = false,
+  double stepZoom = 1,
+  double initZoom = 2,
+  double minZoomLevel = 2,
+  double maxZoomLevel = 18,
+  UserLocationMaker? userLocationMarker,
+  Function(bool)? onMapIsReady,
 }) =>
     throw Exception("not implemented yet");
 
